@@ -4,7 +4,7 @@ import About from './pages/About';
 // import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import '../../src/App.css'
+import '../../src/index.css'
 // import Particles from 'react-particles-js';
 
 export default function Main() {

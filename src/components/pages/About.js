@@ -18,7 +18,7 @@ export default function About() {
             <Col className="pBg">
                 <div className="pBorder">
                     <p className="introPara">
-                        YO!!!!!!!!!!
+                        shitty tst paragraph
                     </p>
                 </div>
             </Col>
