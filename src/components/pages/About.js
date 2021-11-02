@@ -9,12 +9,11 @@ import Image from 'react-bootstrap/Image'
 
 export default function About() {
     return (
-        <div className="tRight">
-            <Container className="HomeHeader">
+        <div className="components">
+            <Container className="content">
                 <Row>
                     <h1>Home Page</h1>
                 </Row>
-            </Container>
             <Col>
                 <div>
                     <p>
@@ -22,6 +21,7 @@ export default function About() {
                     </p>
                 </div>
             </Col>
+            </Container>
         </div>
     );
 }

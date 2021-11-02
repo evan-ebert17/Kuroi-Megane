@@ -14,8 +14,8 @@ function alertClicked() {
 }
 export default function Contact() {
   return (
-    <div className="tRight">
-      <Container>
+    <div className="components">
+      <Container  className="content">
         <h1>Contact Page</h1>
         <Row>
           <Col>
@@ -26,8 +26,8 @@ export default function Contact() {
               <ListGroup.Item action target="_blank" href="https://www.linkedin.com/in/evan-ebert-793b49213">
                 LinkedIn
               </ListGroup.Item>
-              <ListGroup.Item>
-                Email me! evan.ebert17@gmail.com
+              <ListGroup.Item action target="_blank" href="https://www.linkedin.com/in/evan-ebert-793b49213">
+                Sign up for the Newsletter 
               </ListGroup.Item>
             </ListGroup>
           </Col>
