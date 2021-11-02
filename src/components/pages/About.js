@@ -11,14 +11,14 @@ export default function About() {
     return (
         <div className="tRight">
             <Container className="HomeHeader">
-                <Row className="rowish">
+                <Row>
                     <h1>Home Page</h1>
                 </Row>
             </Container>
-            <Col className="pBg">
-                <div className="pBorder">
-                    <p className="introPara">
-                        shitty tst paragraph
+            <Col>
+                <div>
+                    <p>
+                        shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. v v shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. v shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. shitty tst paragraph halleliguesai. 
                     </p>
                 </div>
             </Col>
