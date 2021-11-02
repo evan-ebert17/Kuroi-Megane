@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Projects() {
     return (
-            <Container>
+            <Container className="tRight">
                 <header>
                     <div>
                         <h1 className="projHead">Projects</h1>

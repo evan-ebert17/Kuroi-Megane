@@ -1,4 +1,76 @@
-.App {
+/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+:root {
+  --bgcolor: #000001;
+  --altbgc: #1F1F1F;
+  --primary-green: #118707;
+  --secondary-green: #7FA35C;
+  --primary-yellow: #FED502;
+  --secondary-yellow: #FEFD97;
+  /* --intrest-font: 'VT323', monospace; */
+  --barcode-font: 'Libre Barcode 39 Text', cursive;
+  --a-font: 'Chakra Petch', sans-serif;
+}
+
+* {
+  background-color: white;
+  
+}
+
+h1 {
+  font-family: var(--barcode-font);
+  font-size: 9vh;
+  color: var(--bgcolor);
+}
+
+p,h2,h3,h4,h5{
+  color:var(--altbgc);
+}
+
+.nav-link {
+  color: var(--primary-green);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: var(--altbgc);
+  border-radius: 0%;
+}
+
+a {
+  font-family: var(--a-font);
+  color: var(--primary-green)
+}
+
+.nav-link:hover {
+  color: var(--bgcolor);
+}
+
+.nav-tabs {
+  color: var(--primary-green);
+}
+
+.tabmarg {
+position: fixed;
+    width: calc(50% - 220px);
+    height: 100%;
+    max-height: 100%;
+}
+
+/* .dropdown-item {
+
+} */
+
+.dropdown-item:hover {
+color: var(--primary-green);
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +107,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

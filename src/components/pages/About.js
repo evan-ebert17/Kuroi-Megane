@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image'
 
 export default function About() {
     return (
-        <div>
+        <div className="tRight">
             <Container className="HomeHeader">
                 <Row className="rowish">
                     <h1>Home Page</h1>

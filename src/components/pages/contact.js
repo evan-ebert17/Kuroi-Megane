@@ -14,7 +14,7 @@ function alertClicked() {
 }
 export default function Contact() {
   return (
-    <div>
+    <div className="tRight">
       <Container>
         <h1>Contact Page</h1>
         <Row>
