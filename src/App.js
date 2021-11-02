@@ -1,7 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
+import Homehome from "./components/homehome";
 import Main from "./components/main";
 
-const App = () => <Main />;
+const App = () => 
+
+<Homehome />;
 
 export default App;
