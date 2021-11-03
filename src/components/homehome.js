@@ -5,6 +5,7 @@ import Email from '../assets/Memail.png';
 import Discord from '../assets/Miiscord.png';
 import Instagram from '../assets/miistagram.png';
 import Twitter from '../assets/Mwiitter.png';
+// import Particles from 'react-particles-js';
 import Main from "./main";
 
 
@@ -12,6 +13,9 @@ export default function Homehome() {
     return (
         <main className="tbd">
             <div className="background">
+                {/* <div className="particlesDiv">
+        <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} />
+      </div> */}
 
             </div>
             <div className="bleftText">
@@ -33,14 +37,16 @@ export default function Homehome() {
             </div>
             <div className="maincard">
                 <div className="cardContent">
-                    <img className="logo" src={Logo}></img>
+                    <div className="logo">
+                        <img src={Logo} alt="MeganeLogo"></img>
+                    </div>
                     <div className="description">
 
                     </div>
                     <div className="pagesBtn">
-                        <button>About</button>
-                        <button>Games</button>
-                        <button>Contact</button>
+                        <button className="homeBtn" href="">About</button>
+                        <button className="homeBtn" href="">Games</button>
+                        <button className="homeBtn" href="">Contact</button>
                     </div>
                     <div className="etcBelow">
 
