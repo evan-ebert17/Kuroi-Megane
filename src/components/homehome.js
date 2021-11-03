@@ -5,7 +5,7 @@ import Email from '../assets/Memail.png';
 import Discord from '../assets/Miiscord.png';
 import Instagram from '../assets/miistagram.png';
 import Twitter from '../assets/Mwiitter.png';
-import Main from "./components/main";
+import Main from "./main";
 
 
 export default function Homehome() {

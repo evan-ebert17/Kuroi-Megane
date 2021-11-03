@@ -69,9 +69,29 @@ p,h2,h3,h4,h5{
   text-align: center;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.maincard {
+  display: flex;
+  padding: 3% 5% 3% 5%;
+  width: 85%;
+  box-shadow: rgb(0 0 0 / 25%) 0 0 32px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
 a img {
   width: 32px;
   height: 32px;
+}
+
+.pagesBtn {
+  display: flex;
+  justify-content: space-around;
 }
 
 .socials .sImg {
