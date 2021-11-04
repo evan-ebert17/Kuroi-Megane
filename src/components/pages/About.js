@@ -4,15 +4,13 @@ import { } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ListGroup from 'react-bootstrap/ListGroup'
-import Image from 'react-bootstrap/Image'
 
 export default function About() {
     return (
         <div className="components">
             <Container className="content">
                 <Row>
-                    <h1>Home Page</h1>
+                    <h1>About</h1>
                 </Row>
             <Col>
                 <div>

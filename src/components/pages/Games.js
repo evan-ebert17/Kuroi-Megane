@@ -2,16 +2,14 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
-export default function Projects() {
+export default function Games() {
     return (
             <div className="components">
             <Container  className="content">
                 <header>
                     <div>
-                        <h1 className="projHead">Projects</h1>
+                        <h1 className="projHead">Games</h1>
                     </div>
                 </header>
                 <div className="container">

@@ -5,6 +5,7 @@ import Email from '../assets/Memail.png';
 import Discord from '../assets/Miiscord.png';
 import Instagram from '../assets/miistagram.png';
 import Twitter from '../assets/Mwiitter.png';
+import {Link } from "react-router-dom";
 // import Particles from 'react-particles-js';
 import Main from "./main";
 
@@ -40,13 +41,13 @@ export default function Homehome() {
                     <div className="logo">
                         <img src={Logo} alt="MeganeLogo"></img>
                     </div>
-                    <div className="description">
-
-                    </div>
                     <div className="pagesBtn">
-                        <button className="homeBtn" href="">About</button>
-                        <button className="homeBtn" href="">Games</button>
-                        <button className="homeBtn" href="">Contact</button>
+                        <Link to="/Main#About"><button className="homeBtn" href={Main}>About</button></Link>
+                        <Link to="/Main#Projects"><button className="homeBtn" href={Main}>Games</button></Link>
+                        <Link to="/Main#Contact"><button className="homeBtn" href={Main}>Contact</button></Link>
+                    </div>
+                    <div className="description">
+                        {/* <p>Indie Game Dev based out of Texas.</p> */}
                     </div>
                     <div className="etcBelow">
 

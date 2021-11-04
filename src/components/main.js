@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';
-// import Resume from './pages/Resume';
-import Projects from './pages/Projects';
+import Games from './pages/Games';
 import Contact from './pages/Contact';
 import '../../src/App.css'
-// import Particles from 'react-particles-js';
 
 export default function Main() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -15,12 +13,9 @@ export default function Main() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Projects') {
-      return <Projects />;
+    if (currentPage === 'Games') {
+      return <Games />;
     }
-    // if (currentPage === 'Resume') {
-    //   return <Resume />;
-    // }
     return <Contact />;
   };
 
