@@ -5,6 +5,9 @@ import Email from '../assets/Memail.png';
 import Discord from '../assets/Miiscord.png';
 import Instagram from '../assets/miistagram.png';
 import Twitter from '../assets/Mwiitter.png';
+import About from './pages/About';
+import Games from './pages/Games';
+import Contact from './pages/Contact';
 import {Link } from "react-router-dom";
 // import Particles from 'react-particles-js';
 import Main from "./main";
@@ -14,9 +17,6 @@ export default function Homehome() {
     return (
         <main className="tbd">
             <div className="background">
-                {/* <div className="particlesDiv">
-        <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} />
-      </div> */}
 
             </div>
             <div className="bleftText">
@@ -38,13 +38,13 @@ export default function Homehome() {
             </div>
             <div className="maincard">
                 <div className="cardContent">
-                    <div className="logo">
-                        <img src={Logo} alt="MeganeLogo"></img>
+                    <div>
+                        <img className="logo" src={Logo} alt="MeganeLogo"></img>
                     </div>
                     <div className="pagesBtn">
-                        <Link to="/Main#About"><button className="homeBtn" href={Main}>About</button></Link>
-                        <Link to="/Main#Projects"><button className="homeBtn" href={Main}>Games</button></Link>
-                        <Link to="/Main#Contact"><button className="homeBtn" href={Main}>Contact</button></Link>
+                        <Link to="/Main#About"><button className="homeBtn" href={About}>About</button></Link>
+                        <Link to="/Main#Games"><button className="homeBtn" href={Games}>Games</button></Link>
+                        <Link to="/Main#Contact"><button className="homeBtn" href={Contact}>Contact</button></Link>
                     </div>
                     <div className="description">
                         {/* <p>Indie Game Dev based out of Texas.</p> */}

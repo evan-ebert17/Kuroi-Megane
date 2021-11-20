@@ -1,16 +1,20 @@
 import React from 'react'
-import { Nav } from 'react-bootstrap'
+import { Container, Nav } from 'react-bootstrap'
 import '../../src/App.css'
 import { NavDropdown } from 'react-bootstrap'
+import Logo from '../assets/glassesShine.png';
 import { Link } from 'react-router-dom'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Nav variant="pills" className="justify-content-center navtb">
-      <div className="navcontent">
-        <Nav.Item className="nav-item">
-          <Link to="/"><button className="nav-pills nav-link">Home</button></Link>
-        </Nav.Item>
+    <nav>
+        <div className="nav-item homeLogoLink">
+        <Link to="/">
+          <img className="homeLogo" src={Logo} alt="MeganeLogo"></img>
+          {/* <button className="nav-pills nav-link">Home</button> */}
+        </Link>
+      </div>
+      <Nav variant="pills" className="justify-content-center navtb">
         <Nav.Item className="nav-item">
           <Nav.Link href="#About"
             onClick={() => handlePageChange('About')}
@@ -35,8 +39,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </NavDropdown.Item>
           <NavDropdown.Item eventKey="4.2">TO BE EXPANDED...</NavDropdown.Item>
         </NavDropdown>
-      </div>
-    </Nav>
+      </Nav>
+      </nav>
   );
 }
 
